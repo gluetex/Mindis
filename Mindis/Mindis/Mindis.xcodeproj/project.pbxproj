@@ -9,23 +9,45 @@
 /* Begin PBXBuildFile section */
 		C387EAAC2C11F56F00A0117F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAAB2C11F56F00A0117F /* AppDelegate.swift */; };
 		C387EAAE2C11F56F00A0117F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAAD2C11F56F00A0117F /* SceneDelegate.swift */; };
-		C387EAB02C11F56F00A0117F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAAF2C11F56F00A0117F /* ViewController.swift */; };
+		C387EAB02C11F56F00A0117F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAAF2C11F56F00A0117F /* Login.swift */; };
 		C387EAB32C11F56F00A0117F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C387EAB22C11F56F00A0117F /* Base */; };
 		C387EAB62C11F56F00A0117F /* Mindis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C387EAB42C11F56F00A0117F /* Mindis.xcdatamodeld */; };
 		C387EAB82C11F57000A0117F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C387EAB72C11F57000A0117F /* Assets.xcassets */; };
 		C387EABB2C11F57000A0117F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C387EABA2C11F57000A0117F /* Base */; };
+		C387EACA2C11FD6D00A0117F /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAC92C11FD6D00A0117F /* Register.swift */; };
+		C387EACC2C11FD8400A0117F /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EACB2C11FD8400A0117F /* ForgotPassword.swift */; };
+		C387EACF2C11FDC400A0117F /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EACE2C11FDC400A0117F /* HomePage.swift */; };
+		C387EAD22C11FE1200A0117F /* TasksPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAD12C11FE1200A0117F /* TasksPage.swift */; };
+		C387EAD42C11FE2A00A0117F /* AddTaskModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAD32C11FE2A00A0117F /* AddTaskModal.swift */; };
+		C387EAD72C11FE6400A0117F /* WellBeing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAD62C11FE6400A0117F /* WellBeing.swift */; };
+		C387EADC2C11FEAA00A0117F /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EADB2C11FEAA00A0117F /* Reminder.swift */; };
+		C387EADE2C11FEBC00A0117F /* AddReminderModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EADD2C11FEBC00A0117F /* AddReminderModal.swift */; };
+		C387EAE02C11FED700A0117F /* JournalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EADF2C11FED700A0117F /* JournalPage.swift */; };
+		C387EAE22C11FEEB00A0117F /* AddJournalModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAE12C11FEEB00A0117F /* AddJournalModal.swift */; };
+		C387EAE42C11FF1F00A0117F /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387EAE32C11FF1F00A0117F /* DataRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C387EAA82C11F56F00A0117F /* Mindis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mindis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C387EAAB2C11F56F00A0117F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C387EAAD2C11F56F00A0117F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C387EAAF2C11F56F00A0117F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C387EAAF2C11F56F00A0117F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		C387EAB22C11F56F00A0117F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C387EAB52C11F56F00A0117F /* Mindis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mindis.xcdatamodel; sourceTree = "<group>"; };
 		C387EAB72C11F57000A0117F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C387EABA2C11F57000A0117F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C387EABC2C11F57000A0117F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C387EAC92C11FD6D00A0117F /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		C387EACB2C11FD8400A0117F /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+		C387EACE2C11FDC400A0117F /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		C387EAD12C11FE1200A0117F /* TasksPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksPage.swift; sourceTree = "<group>"; };
+		C387EAD32C11FE2A00A0117F /* AddTaskModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskModal.swift; sourceTree = "<group>"; };
+		C387EAD62C11FE6400A0117F /* WellBeing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WellBeing.swift; path = Mindis/UI/Screens/WellBeing.swift; sourceTree = SOURCE_ROOT; };
+		C387EADB2C11FEAA00A0117F /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		C387EADD2C11FEBC00A0117F /* AddReminderModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderModal.swift; sourceTree = "<group>"; };
+		C387EADF2C11FED700A0117F /* JournalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalPage.swift; sourceTree = "<group>"; };
+		C387EAE12C11FEEB00A0117F /* AddJournalModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJournalModal.swift; sourceTree = "<group>"; };
+		C387EAE32C11FF1F00A0117F /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +82,8 @@
 			children = (
 				C387EAAB2C11F56F00A0117F /* AppDelegate.swift */,
 				C387EAAD2C11F56F00A0117F /* SceneDelegate.swift */,
-				C387EAAF2C11F56F00A0117F /* ViewController.swift */,
+				C387EAC22C11FCB700A0117F /* Data */,
+				C387EAC32C11FCBD00A0117F /* UI */,
 				C387EAB12C11F56F00A0117F /* Main.storyboard */,
 				C387EAB72C11F57000A0117F /* Assets.xcassets */,
 				C387EAB92C11F57000A0117F /* LaunchScreen.storyboard */,
@@ -68,6 +91,104 @@
 				C387EAB42C11F56F00A0117F /* Mindis.xcdatamodeld */,
 			);
 			path = Mindis;
+			sourceTree = "<group>";
+		};
+		C387EAC22C11FCB700A0117F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C387EAC82C11FD2200A0117F /* Repository */,
+				C387EAC72C11FD1C00A0117F /* Entity */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C387EAC32C11FCBD00A0117F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C387EAC42C11FCD500A0117F /* TableView */,
+				C387EAC62C11FCE700A0117F /* ViewModel */,
+				C387EAC52C11FCDE00A0117F /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C387EAC42C11FCD500A0117F /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		C387EAC52C11FCDE00A0117F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C387EACD2C11FD8600A0117F /* Login-Register */,
+				C387EADA2C11FE8E00A0117F /* Reminder */,
+				C387EAD92C11FE8B00A0117F /* Journal */,
+				C387EAD02C11FDF600A0117F /* Task */,
+				C387EACE2C11FDC400A0117F /* HomePage.swift */,
+				C387EAD62C11FE6400A0117F /* WellBeing.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C387EAC62C11FCE700A0117F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C387EAC72C11FD1C00A0117F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C387EAC82C11FD2200A0117F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C387EAE32C11FF1F00A0117F /* DataRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		C387EACD2C11FD8600A0117F /* Login-Register */ = {
+			isa = PBXGroup;
+			children = (
+				C387EAAF2C11F56F00A0117F /* Login.swift */,
+				C387EAC92C11FD6D00A0117F /* Register.swift */,
+				C387EACB2C11FD8400A0117F /* ForgotPassword.swift */,
+			);
+			path = "Login-Register";
+			sourceTree = "<group>";
+		};
+		C387EAD02C11FDF600A0117F /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				C387EAD12C11FE1200A0117F /* TasksPage.swift */,
+				C387EAD32C11FE2A00A0117F /* AddTaskModal.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		C387EAD92C11FE8B00A0117F /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				C387EADF2C11FED700A0117F /* JournalPage.swift */,
+				C387EAE12C11FEEB00A0117F /* AddJournalModal.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		C387EADA2C11FE8E00A0117F /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				C387EADB2C11FEAA00A0117F /* Reminder.swift */,
+				C387EADD2C11FEBC00A0117F /* AddReminderModal.swift */,
+			);
+			path = Reminder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +262,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C387EAB02C11F56F00A0117F /* ViewController.swift in Sources */,
+				C387EAB02C11F56F00A0117F /* Login.swift in Sources */,
+				C387EADE2C11FEBC00A0117F /* AddReminderModal.swift in Sources */,
+				C387EAD72C11FE6400A0117F /* WellBeing.swift in Sources */,
+				C387EAE22C11FEEB00A0117F /* AddJournalModal.swift in Sources */,
+				C387EADC2C11FEAA00A0117F /* Reminder.swift in Sources */,
 				C387EAAC2C11F56F00A0117F /* AppDelegate.swift in Sources */,
+				C387EAE42C11FF1F00A0117F /* DataRepository.swift in Sources */,
 				C387EAAE2C11F56F00A0117F /* SceneDelegate.swift in Sources */,
 				C387EAB62C11F56F00A0117F /* Mindis.xcdatamodeld in Sources */,
+				C387EACA2C11FD6D00A0117F /* Register.swift in Sources */,
+				C387EAE02C11FED700A0117F /* JournalPage.swift in Sources */,
+				C387EAD22C11FE1200A0117F /* TasksPage.swift in Sources */,
+				C387EACF2C11FDC400A0117F /* HomePage.swift in Sources */,
+				C387EACC2C11FD8400A0117F /* ForgotPassword.swift in Sources */,
+				C387EAD42C11FE2A00A0117F /* AddTaskModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
